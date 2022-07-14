@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right bottom, #7caeee, #00ccfe, #00e5e3, #46f5a4, #c9f95c);
+
+}
+
+@media (min-width: 1200px) {
+    .layout {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+.box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    text-align: left;
+}
+
+.Layout {
+    overflow: auto;
+}
+
+h1 {
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+p>span {
+    text-decoration: underline;
+}
