@@ -8,13 +8,6 @@ body {
 
 }
 
-@media (min-width: 1200px) {
-    .layout {
-        max-width: 1200px;
-        margin: auto;
-    }
-}
-
 .box {
     display: inline-block;
     margin: 10px;
